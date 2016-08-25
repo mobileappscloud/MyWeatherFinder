@@ -15,6 +15,7 @@
 		1A1ECEDF1D6F9C0400BEF4A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1ECEDD1D6F9C0400BEF4A5 /* LaunchScreen.storyboard */; };
 		1A1ECEEA1D6F9C0400BEF4A5 /* MyWeatherFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1ECEE91D6F9C0400BEF4A5 /* MyWeatherFinderTests.swift */; };
 		1A1ECEF51D6F9C0400BEF4A5 /* MyWeatherFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1ECEF41D6F9C0400BEF4A5 /* MyWeatherFinderUITests.swift */; };
+		1A1ECF031D6FA05A00BEF4A5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1ECF021D6FA05A00BEF4A5 /* MapKit.framework */; };
 		26074782AFABFEDE2C572074 /* Pods_MyWeatherFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0ECF00B3E7E3232BA13636 /* Pods_MyWeatherFinderUITests.framework */; };
 		4677FDC9369C160F64C3CE76 /* Pods_MyWeatherFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21D84DD96252E3331DA901F /* Pods_MyWeatherFinderTests.framework */; };
 		97EC21FD2D1ECF9DC9851FF7 /* Pods_MyWeatherFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361DDE30D60615F292877C5F /* Pods_MyWeatherFinder.framework */; };
@@ -53,6 +54,7 @@
 		1A1ECEF01D6F9C0400BEF4A5 /* MyWeatherFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeatherFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1ECEF41D6F9C0400BEF4A5 /* MyWeatherFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeatherFinderUITests.swift; sourceTree = "<group>"; };
 		1A1ECEF61D6F9C0400BEF4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1ECF021D6FA05A00BEF4A5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1EDC6917F2057BCB4BD10B50 /* Pods-MyWeatherFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWeatherFinderTests/Pods-MyWeatherFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E12B4EF64D84CAEE9051ADB /* Pods-MyWeatherFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeatherFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWeatherFinderUITests/Pods-MyWeatherFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		361DDE30D60615F292877C5F /* Pods_MyWeatherFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWeatherFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1ECF031D6FA05A00BEF4A5 /* MapKit.framework in Frameworks */,
 				97EC21FD2D1ECF9DC9851FF7 /* Pods_MyWeatherFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +164,7 @@
 		CE944E0DC1CFD53088B968B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A1ECF021D6FA05A00BEF4A5 /* MapKit.framework */,
 				361DDE30D60615F292877C5F /* Pods_MyWeatherFinder.framework */,
 				B21D84DD96252E3331DA901F /* Pods_MyWeatherFinderTests.framework */,
 				4C0ECF00B3E7E3232BA13636 /* Pods_MyWeatherFinderUITests.framework */,
